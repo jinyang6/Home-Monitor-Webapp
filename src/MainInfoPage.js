@@ -102,7 +102,6 @@ export default class MainInfoPage extends Component {
         })
 
         window.connetion.on('disconnect', () => {
-            // TODO reset params ?
             console.log("disconnect!!!");
             this.setState({loading : true})
             window.connetion.connect().then(
@@ -183,7 +182,6 @@ export default class MainInfoPage extends Component {
 
             function() {
                 // publish this.state.armed_state
-                // TODO
                 console.log("armed_state " + this.state.armed_state)
                 var armed = ''
                 if (this.state.armed_state) {

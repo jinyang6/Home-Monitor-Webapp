@@ -13,7 +13,6 @@ export default function SelectTimeInterval() {
     setTimeInterval(event.target.value);
     console.log("Interval:"+event.target.value.toString())
     // publish event.target.value to interval
-    // TODO
     window.connetion.publish( "ALARM_TIMEOUT", event.target.value.toString(), 1)
   };
 
