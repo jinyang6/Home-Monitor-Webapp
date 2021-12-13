@@ -13,18 +13,12 @@ import "react-activity/dist/Spinner.css";
 import {io, iot, mqtt} from 'aws-iot-device-sdk-v2'
 import { Global } from '@emotion/react';
 
-const USER_ID = "ONEPLUS_PHONE"//Bimal: WEB_APP
-const AWS_HOST = "a335a7dhkg3tvg-ats.iot.us-east-2.amazonaws.com"//Bimal: a2ledxsgg5rrmb-ats.iot.us-east-2.amazonaws.com
-const REGION = "us-east-2" //Bimal: us-east-2
-const AWS_ACCESS_KEY_ID = 'AKIAREKQMLCTUM7KLS47' //Bimal: AKIAZDLITMNGFULYJCGE
-const AWS_SECRET_ACCESS_KEY='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'//Bimal: zqJU2H7KR4kibVQVnxt31hfKD8zsNHkhauS6PCcq
+const USER_ID = "FILL-IN"
+const AWS_HOST = "FILL-IN" 
+const REGION = "FILL-IN"
+const AWS_ACCESS_KEY_ID = "FILL-IN"
+const AWS_SECRET_ACCESS_KEY = "FILL-IN" 
 
-// Bimal's config
-// const USER_ID = "WEB_APP"
-// const AWS_HOST = "a2ledxsgg5rrmb-ats.iot.us-east-2.amazonaws.com"
-// const REGION = "us-east-2"
-// const AWS_ACCESS_KEY_ID = "AKIAZDLITMNGFULYJCGE"
-// const AWS_SECRET_ACCESS_KEY="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"
 
 
 
