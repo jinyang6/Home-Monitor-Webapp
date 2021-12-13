@@ -1,3 +1,8 @@
+![demo](demo-images/loading.gif)
+![demo](demo-images/cool.JPG)
+![demo](demo-images/fire.JPG)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
